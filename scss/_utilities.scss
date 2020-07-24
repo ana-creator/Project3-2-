@@ -1,0 +1,42 @@
+
+.structure {
+  
+  
+  margin: 0 auto;
+  overflow: auto;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    
+    grid-template-areas:
+      "h n"
+      "s1 i"
+      "s2 s2"
+      "f1 f2"
+}
+  .header {
+    grid-area: h;
+  }
+  .nav {
+    grid-area: n;
+  }
+  .section1 {
+    grid-area: s1;
+  }
+  .section2 {
+    grid-area: s2;
+  }
+  .image {
+    grid-area: i;
+  }
+  .footer1 {
+    grid-area: f1;
+    
+  }
+  .footer2 {
+    grid-area: f2;
+    
+  }
+  
+  
+  

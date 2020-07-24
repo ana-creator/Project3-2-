@@ -1,0 +1,44 @@
+@media all and (max-width: 830px) {
+    .structure {
+      background-color: $primary-color;
+      display: inline;
+      grid-template-rows: 10% 10% 30% 20% 20% 5% 5%;
+      grid-column: auto; 
+      
+      grid-template-areas:
+        "h"
+        "n"
+        "s1"
+        "i"
+        "s2"
+        "f1"
+        "f2"
+        ;
+    }
+    
+    .header {
+      grid-area: h;
+    }
+    .nav {
+      grid-area: n;
+    }
+    .section1 {
+      grid-area: s1;
+    }
+    .section2 {
+      grid-area: s2;
+    }
+    .image {
+      grid-area: i;
+    }
+    .footer1 {
+      grid-area: f1;
+      
+    }
+    .footer2 {
+      grid-area: f2;
+      
+    }
+    
+  }
+  
